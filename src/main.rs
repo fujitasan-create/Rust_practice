@@ -1,6 +1,5 @@
 mod basic;
 
 fn main() {
-    println!("Hello, world!");
-    basic::hello();
+    println!("{}", basic::add(5, 10));
 }
